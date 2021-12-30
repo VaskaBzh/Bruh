@@ -23,9 +23,20 @@
 .logo_img {
     max-width: 40px;
     width: 100%;
+    transition-duration: 1s;
+}
+a .logo_img {
+    transition-duration: 1s;
+}
+a .logo_img:hover {
+    transform: rotate(360deg);
 }
 .logo_nav {
     width: 100%;
+    transition-duration: 0.4s;
+}
+.logo_nav:hover {
+    transform: translateY(10px);
 }
 .logo_title {
     font-family: 'Merriweather', serif;
@@ -47,10 +58,18 @@
 span {
     text-decoration: none;
     cursor: pointer;
+    transition-duration: 400ms;
+}
+span:hover {
+    transform: scale(1.1);
 }
 a {
     text-decoration: none;
     cursor: pointer;
+    transition-duration: 400ms;
+}
+a:hover {
+    transform: scale(1.1);
 }
 .span_nav {
     position: relative;
@@ -61,6 +80,10 @@ a {
     line-height: 17px; 
     color: #000000;
     margin-left: 25px;
+    transition-duration: 400ms;
+}
+.span_nav:hover {
+    color: rgba(0, 95, 163, 1);
 }
 .span_nav:nth-child(1)::before {
     content: url(../img/Group.png);
@@ -95,6 +118,10 @@ a {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #222222;
+    transition-duration: 400ms;
+}
+.header_nav:hover {
+    color:rgba(0, 95, 163, 1);
 }
 .section_promo {
     padding: 170px 0 113px;
@@ -129,8 +156,10 @@ a {
     width: 100%;
     min-height: 10px;
     border-radius: 100px;
+    cursor: pointer;
+    transition-duration: 400ms;
 }
-.doth:nth-child(3) {
+.doth:hover {
     opacity: 1;
 }
 .button {
@@ -148,6 +177,10 @@ a {
     border: none;
     outline: none;
     cursor: pointer;
+    transition-duration: 400ms;
+}
+.button:hover {
+    transform: scale(1.1) translateX(10px);
 }
 .button_promo {
     margin: 80px 0 120px;
@@ -166,6 +199,11 @@ a {
     background: #FFFFFF url(../img/back.png) no-repeat center;
     opacity: 0.2;
     cursor: pointer;
+    transition-duration: 400ms;
+}
+.left_block:hover {
+    background: #000000 url(../img/back.png) no-repeat center; 
+    opacity: 0.6;
 }
 .right_block {
     width: 50%;
@@ -173,6 +211,11 @@ a {
     background: #FFFFFF url(../img/back1.png) no-repeat center;
     opacity: 0.4;
     cursor: pointer;
+    transition-duration: 400ms;
+}
+.right_block:hover {
+    background: #000000 url(../img/back1.png) no-repeat center; 
+    opacity: 0.6;
 }
 .section {
     padding: 140px 0;
@@ -261,6 +304,11 @@ a {
     min-height: 255px;
     background: #EBEBEB;
     margin-bottom: 30px;
+    transition-duration: 400ms;
+    cursor: pointer;
+}
+.card_company_block:hover {
+    transform: scale(1.05);
 }
 .card_company_block:nth-child(3) {
     margin-bottom: 0;
@@ -313,6 +361,10 @@ a {
 .work_img {
     max-width: 255px;
     width: 100%;
+    transition-duration: 400ms;
+}
+.work_img:hover {
+    transform: scale(1.1);
 }
 .work_pics {
     width: 100%;
@@ -329,8 +381,10 @@ a {
     width: 100%;
     min-height: 10px;
     border-radius: 100px;
+    transition-duration: 400ms;
+    cursor: pointer;
 }
-.doth_work:nth-child(3) {
+.doth_work:hover {
     opacity: 1;
 }
 .left_block_work {
@@ -339,6 +393,11 @@ a {
     background: #005FA3 url(../img/back.png) no-repeat center;
     opacity: 0.4;
     cursor: pointer;
+    transition-duration: 400ms;
+}
+.left_block_work:hover {
+    background: #000000 url(../img/back.png) no-repeat center; 
+    opacity: 0.4;
 }
 .right_block_work {
     width: 50%;
@@ -346,6 +405,11 @@ a {
     background: #005FA3 url(../img/back1.png) no-repeat center;
     opacity: 1;
     cursor: pointer;
+    transition-duration: 400ms;
+}
+.right_block_work:hover {
+    background: #000000 url(../img/back1.png) no-repeat center; 
+    opacity: 0.4;
 }
 .thanx_block {
     background: #EBEBEB;
@@ -468,6 +532,10 @@ a {
     padding: 19px 18px;
     max-width: 270px;
     width: 100%;
+    transition-duration: 400ms;
+}
+.button_us:hover {
+    transform: scale(1.1) translateX(-10px) translateY(5px);
 }
 .block_top_align {
     align-items: flex-start;
